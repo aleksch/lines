@@ -192,4 +192,4 @@ class GameModel:
     def updateScore(self):
         '''обновляет счёт (например вызывается при удаление линии)'''
         pass
-    govno 
+
