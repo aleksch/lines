@@ -125,7 +125,7 @@ class GameModel:
                     if current_distance == d[way_point[1]][way_point[0]]:
                         way_list.insert(0, [way_point[0],way_point[1]])
                         break
-            print(way_list)
+            return way_list
         else:
             return []
 
